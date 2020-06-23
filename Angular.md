@@ -1,7 +1,8 @@
 Wecome, Thank you for showing interest in growing with us at Pixel6. Wish you best of luck for the assignment. Please read the entire document carefully before you start writing code.
 
 # Assignment
-You will be creating an Angular application as described below. You can use any plugin / framework of your choice, Like for CSS you may use bootstrap / Material, for date fields you may use https://github.com/kekeh/ngx-mydatepicker.
+You will be creating an Angular application as described below. You can use any plugin / framework of your choice, like for CSS you may use bootstrap / Material, for date fields you may use https://github.com/kekeh/ngx-mydatepicker or momentJS.
+You may start with any `Angular starter app` you are comfortable with.
 
 ## Form to apply for a Personal Loan
 - The form should have fields for `city`, `panNumber` `fullname`, `email`, `mobile` and `otp` in this sequence.
@@ -23,9 +24,11 @@ Please request payload and response structure carefully here https://documenter.
 
 
 # Assessment Criteria
-- Code quality of the Angular Code (Use of angular librraies ad feature like RxJs..)
-- Code quality of the HTML and CSS if any.
-- Look and feel of the form and list pages.
+- Code quality of the Angular Code (Use of angular librraies and features. e.g RxJs - obervables, pipes, subscribers - etc..)
+- Code quality of the HTML and CSS (if any).
+- Look and feel of the form landing page.
 
 # Deliverable
-Create a repository in your github account and commit the code into that repository. Send us the link to the repository. 
+Create a repository in your github account and commit the code into that repository. Send us the link to the repository.
+It is expected that you send us the link to your code repository, within 3 days after receiving this assignment.
+
