@@ -19,7 +19,7 @@ You will be creating an Angular application as described below. You can use any 
 -  User can click 'Resend OTP' link only 3 times. after that user shall be shown error message "Please try again after an hour." and 'Resend OTP' link shall be hidden.
 
 ## API Details
-Note : You DO NOT need to create any API. The API is already created. The details are available here - 
+Please request payload and response structure carefully here https://documenter.getpostman.com/view/11819251/Szzq2u2e 
 
 
 # Assessment Criteria
