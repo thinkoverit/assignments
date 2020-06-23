@@ -7,12 +7,12 @@ You may start with any `Angular starter app` you are comfortable with.
 ## Form to apply for a Personal Loan
 - The form should have fields for `city`, `panNumber` `fullname`, `email`, `mobile` and `otp` in this sequence.
 - Please use validation rules as below and show error messages as you seef fit.
-   city - required
-   panNumber - required and valid PAN format for INDIA and max length of 10.
-   fullname - required and max length of 140.
-   email - required and valid Email format and max length of 255.
-   mobile - required and valid mobile format and max length of 10. (Please show prefix of static +91 to mobile field)
-   otp - required and valid NUMBER ONLY format and max length of 4.(Please keep OTP field hidden till getOTP API is success)
+   - city - required
+   - panNumber - required and valid PAN format for INDIA and max length of 10.
+   - fullname - required and max length of 140.
+   - email - required and valid Email format and max length of 255.
+   - mobile - required and valid mobile format and max length of 10. (Please show prefix of static +91 to mobile field)
+   - otp - required and valid NUMBER ONLY format and max length of 4.(Please keep OTP field hidden till getOTP API is success)
 
 - As soon as mobile field is filled by user and is valid, then call 'getOTP' API as mentioned in section 'API Details' below.
 - If 'getOTP' API is successfull please show 'otp field and a disabled 'Resend OTP' link beside otp field.
@@ -20,7 +20,7 @@ You may start with any `Angular starter app` you are comfortable with.
 -  User can click 'Resend OTP' link only 3 times. after that user shall be shown error message "Please try again after an hour." and 'Resend OTP' link shall be hidden.
 
 ## API Details
-Please request payload and response structure carefully here https://documenter.getpostman.com/view/11819251/Szzq2u2e 
+Please request payload and response structure carefully here https://documenter.getpostman.com/view/11819251/Szzq3EWU?version=latest
 
 
 # Assessment Criteria
@@ -29,6 +29,6 @@ Please request payload and response structure carefully here https://documenter.
 - Look and feel of the form landing page.
 
 # Deliverable
-Create a repository in your github account and commit the code into that repository. Send us the link to the repository.
-It is expected that you send us the link to your code repository, within 3 days after receiving this assignment.
+Create a repository in your github account and commit the code into that repository. Please send us the link to the repository.
+It is expected that you send us the link to your code repository within 3 days after receiving this assignment.
 
