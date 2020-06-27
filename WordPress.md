@@ -1,8 +1,8 @@
 
-Wecome, Thank you for showing interest in growing with us at Pixel6. Wish you best of luck for the assignment. Please read the entire document carefully before you start writing code.
+Welcome and thank you for showing interest in working with us at Pixel6. Wish you best of luck for the assignment. Please read the entire document carefully before you start writing code.
 
 # Assignment
-You will be creating an wordpress theme only, **without use of any external 3rd party plugins**.
+You will be creating a WordPress theme only **without use of any external 3rd party plugins**.
 
 ## Form for profile submission.
 - Create a blank theme, call it WP6. Author to be your name and preview image to be 'WordPress' logo. Website home page to be a profile submission page.
@@ -26,16 +26,16 @@ You will be creating an wordpress theme only, **without use of any external 3rd 
       - Primary*: [Text Field]
       - Secondary: [Text Field]
       - Certifications: [Text field]
-      - Pitch* (Why should we consider you?): [Text area] 
+   - Pitch* (Why should we consider you?): [Text area] 
 
 
    '*' marked fields to be mandatory.
 
-- Profile Page:- On form submission, create user in database. User profile page shall be available at http://domain.com/firstname-lastame/
+- Profile Page:- On form submission, insert the entries in database. User profile page should be available at a url, something like domain.com/firstname-lastame/
      Please create profile page UI as you like ([sample here](https://github.com/thinkoverit/assignments/blob/master/sample-profile.jpg)) but should contain following things atleast.
 
      - Photo of the user
-     - Brief: <'Mr./Ms.' based on gender selection> <First name> did <'his/her' based on gender selection> <graduation> in <specialisation> from <college/university> in the year <graduation year>. <'He/She' based on gender selection> is highly skilled in <primary skill>. <'He/She' based on gender selection> live in <city> and can be contacted via <email> and <phone>.
+     - Brief: <'Mr./Ms.' based on gender selection> <First name> did <'his/her' based on gender selection> <graduation> in <specialisation> from <college/university> in the year <graduation year>. <'He/She' based on gender selection> is highly skilled in <primary skill>. <'He/She' based on gender selection> lives in <city> and can be contacted via <email, as from the submission> and <phone, as from the submission>.
      - Candidates Pitch: <pitch>
      - Resume [add all fields personal, education & skills, one by one like in your own resume]
 
