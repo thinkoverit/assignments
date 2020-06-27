@@ -32,7 +32,7 @@ You will be creating an wordpress theme.
    '*' marked fields to be mandatory.
 
 - Profile Page:- On form submission, create user in database. User profile page shall be available at http://domain.com/firstname-lastame/
-     Please create profile page UI as you like (sample here) but should contain following things atleast.
+     Please create profile page UI as you like ([sample here](https://github.com/thinkoverit/assignments/blob/master/sample-profile.jpg)) but should contain following things atleast.
 
      - Photo of the user
      - Brief: <'Mr./Ms.' based on gender selection> <First name> did <'his/her' based on gender selection> <graduation> in <specialisation> from <college/university> in the year <graduation year>. <'He/She' based on gender selection> is highly skilled in <primary skill>. <'He/She' based on gender selection> live in <city> and can be contacted via <email> and <phone>.
