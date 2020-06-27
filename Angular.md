@@ -1,4 +1,4 @@
-Wecome, Thank you for showing interest in growing with us at Pixel6. Wish you best of luck for the assignment. Please read the entire document carefully before you start writing code.
+Welcome and thank you for showing interest in working with us at Pixel6. Wish you best of luck for the assignment. Please read the entire document carefully before you start writing code.
 
 # Assignment
 You will be creating an Angular application as described below. You can use any plugin / framework of your choice, like for CSS you may use bootstrap / Material, for date fields you may use https://github.com/kekeh/ngx-mydatepicker or momentJS.
@@ -15,8 +15,8 @@ You may start with any `Angular starter app` you are comfortable with.
    - otp - required and valid NUMBER ONLY format and max length of 4.(Please keep OTP field hidden till getOTP API is success)
 
 - As soon as mobile field is filled by user and is valid, then call 'getOTP' API as mentioned in section 'API Details' below.
-- If 'getOTP' API is successfull please show 'otp field and a disabled 'Resend OTP' link beside otp field.
-- 'Resend OTP' link shall be disabled for 3 minutes and will be enabled when 3 minutes lapse. Now user can click Resend OTP link again. after successfull getOTP call above step will repeat.
+- If 'getOTP' API is successfull please show 'otp field and a disable 'Resend OTP' link beside otp field.
+- 'Resend OTP' link shall be disabled for 3 minutes and will be enabled when 3 minutes lapse. Now user can click Resend OTP link again and after successfull getOTP call above step will repeat.
 -  User can click 'Resend OTP' link only 3 times. after that user shall be shown error message "Please try again after an hour." and 'Resend OTP' link shall be hidden.
 
 ## API Details
