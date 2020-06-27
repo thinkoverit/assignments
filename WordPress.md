@@ -2,7 +2,7 @@
 Wecome, Thank you for showing interest in growing with us at Pixel6. Wish you best of luck for the assignment. Please read the entire document carefully before you start writing code.
 
 # Assignment
-You will be creating an wordpress theme.
+You will be creating an wordpress theme only, **without use of any external 3rd party plugins**.
 
 ## Form for profile submission.
 - Create a blank theme, call it WP6. Author to be your name and preview image to be 'WordPress' logo. Website home page to be a profile submission page.
