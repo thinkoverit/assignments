@@ -17,14 +17,17 @@ You may start with any `Angular starter app` you are comfortable with.
 - As soon as mobile field is filled by user and is valid, then call 'getOTP' API as mentioned in section 'API Details' below.
 - If 'getOTP' API is successfull please show 'otp field and a disable 'Resend OTP' link beside otp field.
 - 'Resend OTP' link shall be disabled for 3 minutes and will be enabled when 3 minutes lapse. Now user can click Resend OTP link again and after successfull getOTP call above step will repeat.
--  User can click 'Resend OTP' link only 3 times. after that user shall be shown error message "Please try again after an hour." and 'Resend OTP' link shall be hidden.
+- User can click 'Resend OTP' link only 3 times. after that user shall be shown error message "Please try again after an hour." and 'Resend OTP' link shall be hidden.
+- As soon as user fills OTP field and its valid, please call 'verifyOTP' as mentioned in API Details section below.
+- If 'verifyOTP' API is successfull show a screen displaying 'Thank you for verification xxxx'. xxxx is fullname filled by user in form.
+
 
 ## API Details
 Please request payload and response structure carefully here https://documenter.getpostman.com/view/11819251/Szzq3EWU?version=latest
 
 
 # Assessment Criteria
-- Code quality of the Angular Code (Use of angular librraies and features. e.g RxJs - obervables, pipes, subscribers - etc..)
+- Code quality of the Angular Code (Use of angular librraies and features. e.g RxJs - obervables, directives, pipes, subscribers - etc..)
 - Code quality of the HTML and CSS (if any).
 - Look and feel of the form landing page.
 
