@@ -5,6 +5,7 @@ You will be creating an Angular application as described below. You can use any 
 You may start with any `Angular starter app` you are comfortable with.
 
 ## Form to apply for a Personal Loan
+- Please create a verification form, at default url '/verify' in your angular application.
 - The form should have fields for `city`, `panNumber` `fullname`, `email`, `mobile` and `otp` in this sequence.
 - Please use validation rules as below and show error messages as you seef fit.
    - city - required
