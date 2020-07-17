@@ -24,11 +24,55 @@ You may start with any `Angular starter app` you are comfortable with.
 
 
 ## API Details
-Please request payload and response structure carefully here https://documenter.getpostman.com/view/11819251/Szzq3EWU?version=latest
+Please check request payload and response structure carefully as below-
 
+- GET OTP
+   - REQUEST PAYLOAD 
+      - URL: http://lab.thinkoverit.com/api/getOTP.php
+      - Type: POST
+      - Data Type:- JSON
+      - Body:-
+      
+         {
+            "panNumber": "AAFNZ2078H,",
+            "city": "Pune,",
+            "fullname": "Ajay Sharma,",
+            "email": "applicant@pixel6.co",
+            "mobile": 9455566777
+         }
+
+    - RESPONSE PAYLOAD
+      - Data Type:- JSON
+      - Body:-
+      
+         {
+            "status": "Success",
+            "statusCode": 200
+         }
+         
+- VERIFY OTP
+   - REQUEST PAYLOAD 
+      - URL: http://lab.thinkoverit.com/api/verifyOTP.php
+      - Type: POST
+      - Data Type:- JSON
+      - Body:-
+      
+         {
+             "mobile": 99999988888,
+             "otp": 2222
+         }
+
+    - RESPONSE PAYLOAD
+      - Data Type:- JSON
+      - Body:-
+      
+         {
+            "status": "Success",
+            "statusCode": 200
+         }
 
 # Assessment Criteria
-- Code quality of the Angular Code (Use of angular librraies and features. e.g RxJs - obervables, directives, pipes, subscribers - etc..)
+- Code quality of the Angular Code (Use of angular libraries and features. e.g RxJs - obervables, directives, pipes, subscribers - etc..)
 - Code quality of the HTML and CSS (if any).
 - Look and feel of the form landing page.
 
