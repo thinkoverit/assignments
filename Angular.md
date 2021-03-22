@@ -5,9 +5,9 @@ You will be creating an Angular application as described below. You can use any 
 You may start with any `Angular starter app` you are comfortable with.
 
 ## Form to apply for a Personal Loan
-- Please create a verification form, at default url '/verify' in your angular application.
+- Please create a verification form using Angular Aeactive Forms, at default url '/verify' in your angular application.
 - The form should have fields for `city`, `panNumber` `fullname`, `email`, `mobile` and `otp` in this sequence.
-- Please use validation rules as below and show error messages as you seef fit.
+- Please use validation rules as below and show error messages as you see fit.
    - city - required
    - panNumber - required and valid PAN format for INDIA and max length of 10.
    - fullname - required and max length of 140.
