@@ -17,4 +17,5 @@ for validation any javascript/JQuery library.
   - Please follow standard PHP [PSR](https://www.php-fig.org/) coding guidelines.
   - Code must have client side and server side validations.
   - Code shall have minimum security measures to restrict basic hacker attacks like SQL injection.
+  - Make sure code is properly formatted.
   
