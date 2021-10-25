@@ -12,11 +12,11 @@ You may start with any `Angular starter app` you are comfortable with.
   - Email (required and max length of 255 and valid format)
   - Mobile Number (required and valid mobile format and max length of 10. (Please show prefix of static +91 to mobile field)
   - Addresses (Multiple entries allowed)
-     - Address Line 1
+     - Address Line 1 (required)
      - Address Line 2
-     - Postcode
-     - State
-     - City
+     - Postcode (required and valid NUMBER ONLY format and max length of 6)
+     - State (prefilled via API)
+     - City (prefilled via API)
  
 ## Instructions
    - Customer shall be able to add multiple addresses, max 10. Administartor shall have ability to add new or remove existing address of customer.
