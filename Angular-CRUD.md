@@ -76,9 +76,9 @@ Please check request payload and response structure carefully as below-
          {
             "status": "Success",
             "statusCode": 200,
-            "postcode": 411005
-            "city": [{id: 5, "name": "Pune"}]
-            "postcode": [{id: 11, "name": "Maharashtra"}]
+            "postcode": 411005,
+            "city": [{id: 5, "name": "Pune"}],
+            "state": [{id: 11, "name": "Maharashtra"}]
          }
 
     
