@@ -33,7 +33,8 @@ Please check request payload and response structure carefully as below-
     As soon as valid PAN is entred by user, this API shall be called with loader shown at right side of input field. On response if PAN is valid, 
     prefill fullname field with fullname received in response.
 
-   - REQUEST PAYLOAD 
+   - REQUEST TYPE: POST
+   - REQUEST PAYLOAD:
       - URL: http://lab.thinkoverit.com/api/verify-pan.php
       - Type: POST
       - Data Type:- JSON
@@ -43,7 +44,7 @@ Please check request payload and response structure carefully as below-
             "panNumber": "AAFNZ2078H"
          }
 
-    - RESPONSE PAYLOAD
+    - RESPONSE PAYLOAD:
       - Data Type:- JSON
       - Body:-
       
@@ -59,7 +60,8 @@ Please check request payload and response structure carefully as below-
    As soon as valid postcode is entred by user, this API shall be called with loader shown at right side of input field. On response if city 
    and state is received prefill city and state field with received values. Remember city and state are select boxes.
    
-   - REQUEST PAYLOAD 
+   - REQUEST TYPE: POST
+   - REQUEST PAYLOAD:
       - URL: http://lab.thinkoverit.com/api/get-postcode-details.php
       - Type: POST
       - Data Type:- JSON
@@ -69,7 +71,7 @@ Please check request payload and response structure carefully as below-
              "postcode": 411005
          }
 
-    - RESPONSE PAYLOAD
+    - RESPONSE PAYLOAD:
       - Data Type:- JSON
       - Body:-
       
