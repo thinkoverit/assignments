@@ -35,7 +35,7 @@ Please check request payload and response structure carefully as below-
 
    - REQUEST TYPE: POST
    - REQUEST PAYLOAD:
-      - URL: http://lab.thinkoverit.com/api/verify-pan.php
+      - URL: http://apps.thinkoverit.com/api/verify-pan.php
       - Type: POST
       - Data Type:- JSON
       - Body:-
@@ -62,7 +62,7 @@ Please check request payload and response structure carefully as below-
    
    - REQUEST TYPE: POST
    - REQUEST PAYLOAD:
-      - URL: http://lab.thinkoverit.com/api/get-postcode-details.php
+      - URL: http://apps.thinkoverit.com/api/get-postcode-details.php
       - Type: POST
       - Data Type:- JSON
       - Body:-
