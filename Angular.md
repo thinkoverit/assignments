@@ -28,7 +28,7 @@ Please check request payload and response structure carefully as below-
 
 - GET OTP
    - REQUEST PAYLOAD 
-      - URL: http://lab.thinkoverit.com/api/getOTP.php
+      - URL: http://apps.thinkoverit.com/api/getOTP.php
       - Type: POST
       - Data Type:- JSON
       - Body:-
@@ -52,7 +52,7 @@ Please check request payload and response structure carefully as below-
          
 - VERIFY OTP
    - REQUEST PAYLOAD 
-      - URL: http://lab.thinkoverit.com/api/verifyOTP.php
+      - URL: http://apps.thinkoverit.com/api/verifyOTP.php
       - Type: POST
       - Data Type:- JSON
       - Body:-
