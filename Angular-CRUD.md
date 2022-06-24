@@ -35,7 +35,7 @@ Please check request payload and response structure carefully as below-
 
    - REQUEST TYPE: POST
    - REQUEST PAYLOAD:
-      - URL: httpa://jocata.thinkoverit.com/api/verify-pan.php
+      - URL: https://jocata.thinkoverit.com/api/verify-pan.php
       - Type: POST
       - Data Type:- JSON
       - Body:-
