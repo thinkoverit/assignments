@@ -35,7 +35,7 @@ Please check request payload and response structure carefully as below-
 
    - REQUEST TYPE: POST
    - REQUEST PAYLOAD:
-      - URL: https://jocata.thinkoverit.com/api/verify-pan.php
+      - URL: https://lab.pixel6.co/api/verify-pan.php
       - Type: POST
       - Data Type:- JSON
       - Body:-
@@ -62,7 +62,7 @@ Please check request payload and response structure carefully as below-
    
    - REQUEST TYPE: POST
    - REQUEST PAYLOAD:
-      - URL: https://jocata.thinkoverit.com/api/get-postcode-details.php
+      - URL: https://lab.pixel6.co/api/get-postcode-details.php
       - Type: POST
       - Data Type:- JSON
       - Body:-
